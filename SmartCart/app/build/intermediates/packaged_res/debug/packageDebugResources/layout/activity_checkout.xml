@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+    <include layout="@layout/toolbar" />
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+            <TextView style="@style/TextSection" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Order summary" />
+            <com.google.android.material.card.MaterialCardView style="@style/Card" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp">
+                <TextView android:id="@+id/tvSummary" style="@style/TextBody" android:layout_width="match_parent" android:layout_height="wrap_content" android:lineSpacingExtra="4dp" android:padding="14dp" />
+            </com.google.android.material.card.MaterialCardView>
+            <TextView style="@style/TextSection" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="Delivery address" />
+            <com.google.android.material.textfield.TextInputLayout android:id="@+id/tilAddress" style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:hint="House no, street, city, PIN">
+                <com.google.android.material.textfield.TextInputEditText android:id="@+id/etAddress" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="top" android:inputType="textMultiLine|textCapSentences" android:minLines="3" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <TextView style="@style/TextSection" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="Payment" />
+            <TextView style="@style/TextBody" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:background="@drawable/bg_soft" android:padding="14dp" android:text="💵  Cash on Delivery (simulated, no real payment)" />
+            <com.google.android.material.button.MaterialButton android:id="@+id/btnPlace" android:layout_width="match_parent" android:layout_height="58dp" android:layout_marginTop="24dp" android:text="Place order" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

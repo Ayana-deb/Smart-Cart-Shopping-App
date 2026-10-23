@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+    <include layout="@layout/toolbar" />
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="12dp">
+            <com.google.android.material.card.MaterialCardView style="@style/Card" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="4dp">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="14dp">
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:orientation="horizontal">
+                        <TextView android:id="@+id/tvCode" style="@style/TextTitle" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" />
+                        <TextView android:id="@+id/tvStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <TextView android:id="@+id/tvProgress" style="@style/TextMuted" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:textColor="@color/primary" />
+                    <TextView android:id="@+id/tvDates" style="@style/TextBody" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:lineSpacingExtra="3dp" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView style="@style/Card" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="4dp">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="14dp">
+                    <TextView style="@style/TextSection" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Items" />
+                    <LinearLayout android:id="@+id/llItems" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" />
+                    <TextView android:id="@+id/tvTotal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:gravity="end" android:textColor="@color/primary" android:textSize="18sp" android:textStyle="bold" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView style="@style/Card" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="4dp">
+                <TextView android:id="@+id/tvAddress" style="@style/TextBody" android:layout_width="match_parent" android:layout_height="wrap_content" android:lineSpacingExtra="3dp" android:padding="14dp" />
+            </com.google.android.material.card.MaterialCardView>
+            <TextView android:id="@+id/tvDemoLabel" style="@style/TextMuted" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="6dp" android:layout_marginTop="10dp" android:text="Demo controls (simulate delivery locally)" />
+            <com.google.android.material.button.MaterialButton android:id="@+id/btnAdvance" style="@style/BtnOutline" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="4dp" />
+            <com.google.android.material.button.MaterialButton android:id="@+id/btnBackdate" style="@style/BtnOutline" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="4dp" android:text="Demo: make delivery 8 days old (outside window)" android:visibility="gone" />
+            <com.google.android.material.button.MaterialButton android:id="@+id/btnResetDate" style="@style/BtnOutline" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="4dp" android:text="Demo: set delivery to today" android:visibility="gone" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/Card" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="6dp">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:padding="12dp">
+        <TextView android:id="@+id/tvEmoji" android:layout_width="68dp" android:layout_height="68dp" android:textSize="30sp" />
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginStart="12dp" android:layout_weight="1" android:orientation="vertical">
+            <TextView android:id="@+id/tvName" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="@color/text" android:textSize="15sp" android:textStyle="bold" />
+            <TextView android:id="@+id/tvPrice" style="@style/TextMuted" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:gravity="center_vertical" android:orientation="horizontal">
+                <com.google.android.material.button.MaterialButton android:id="@+id/btnMinus" style="@style/BtnSmall" android:layout_width="wrap_content" android:layout_height="40dp" android:text="−" />
+                <TextView android:id="@+id/tvQty" android:layout_width="36dp" android:layout_height="wrap_content" android:gravity="center" android:textColor="@color/text" android:textSize="16sp" android:textStyle="bold" />
+                <com.google.android.material.button.MaterialButton android:id="@+id/btnPlus" style="@style/BtnSmall" android:layout_width="wrap_content" android:layout_height="40dp" android:text="+" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="end" android:orientation="vertical">
+            <TextView android:id="@+id/tvLineTotal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/primary" android:textSize="16sp" android:textStyle="bold" />
+            <Button android:id="@+id/btnRemove" style="@style/Widget.MaterialComponents.Button.TextButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Remove" android:textAllCaps="false" android:textColor="@color/danger" />
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

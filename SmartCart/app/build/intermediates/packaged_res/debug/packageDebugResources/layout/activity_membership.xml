@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+    <include layout="@layout/toolbar" />
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="12dp">
+            <com.google.android.material.card.MaterialCardView style="@style/Card" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="4dp">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:gravity="center_horizontal" android:padding="18dp">
+                    <TextView android:id="@+id/tvMedal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="48sp" />
+                    <TextView android:id="@+id/tvTier" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" />
+                    <TextView android:id="@+id/tvBenefits" style="@style/TextBody" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:lineSpacingExtra="4dp" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView style="@style/Card" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="4dp">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+                    <TextView style="@style/TextSection" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Your activity" />
+                    <TextView android:id="@+id/tvStats" style="@style/TextBody" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:lineSpacingExtra="4dp" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView android:id="@+id/cardNext" style="@style/Card" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="4dp">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+                    <TextView android:id="@+id/tvNextTitle" style="@style/TextSection" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <TextView style="@style/TextMuted" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="Membership score" />
+                    <ProgressBar android:id="@+id/pbScore" style="?android:attr/progressBarStyleHorizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:max="100" />
+                    <TextView android:id="@+id/tvReq" style="@style/TextBody" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:lineSpacingExtra="4dp" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+            <TextView style="@style/TextMuted" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="8dp" android:text="Membership only improves processing convenience. It never overrides return eligibility and never decides fraud risk." />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

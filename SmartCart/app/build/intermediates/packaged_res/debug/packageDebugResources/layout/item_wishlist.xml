@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/Card" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="6dp" android:clickable="true" android:focusable="true" android:foreground="?attr/selectableItemBackground">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:padding="12dp">
+        <TextView android:id="@+id/tvEmoji" android:layout_width="68dp" android:layout_height="68dp" android:textSize="30sp" />
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginStart="12dp" android:layout_weight="1" android:orientation="vertical">
+            <TextView android:id="@+id/tvName" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="@color/text" android:textSize="15sp" android:textStyle="bold" />
+            <TextView android:id="@+id/tvPrice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/primary" android:textSize="15sp" android:textStyle="bold" />
+            <TextView android:id="@+id/tvStock" style="@style/TextMuted" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+                <com.google.android.material.button.MaterialButton android:id="@+id/btnMove" android:layout_width="wrap_content" android:layout_height="40dp" android:insetTop="0dp" android:insetBottom="0dp" android:text="Move to cart" android:textSize="12sp" />
+                <Button android:id="@+id/btnRemove" style="@style/Widget.MaterialComponents.Button.TextButton" android:layout_width="wrap_content" android:layout_height="40dp" android:text="Remove" android:textAllCaps="false" android:textColor="@color/danger" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+    <include layout="@layout/toolbar" />
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+            <TextView android:id="@+id/tvEmoji" android:layout_width="match_parent" android:layout_height="220dp" android:textSize="96sp" />
+            <TextView android:id="@+id/tvName" style="@style/TextTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:textSize="22sp" />
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:gravity="center_vertical" android:orientation="horizontal">
+                <TextView android:id="@+id/tvCategory" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:id="@+id/tvRating" style="@style/TextBody" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="12dp" />
+            </LinearLayout>
+            <TextView android:id="@+id/tvPrice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:textColor="@color/primary" android:textSize="28sp" android:textStyle="bold" />
+            <TextView android:id="@+id/tvStock" style="@style/TextBody" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:id="@+id/tvDesc" style="@style/TextBody" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:lineSpacingExtra="3dp" android:textSize="15sp" />
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:gravity="center_vertical" android:orientation="horizontal">
+                <TextView style="@style/TextBody" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="12dp" android:text="Quantity" />
+                <com.google.android.material.button.MaterialButton android:id="@+id/btnMinus" style="@style/BtnSmall" android:layout_width="wrap_content" android:layout_height="40dp" android:text="−" />
+                <TextView android:id="@+id/tvQty" android:layout_width="44dp" android:layout_height="wrap_content" android:gravity="center" android:text="1" android:textColor="@color/text" android:textSize="18sp" android:textStyle="bold" />
+                <com.google.android.material.button.MaterialButton android:id="@+id/btnPlus" style="@style/BtnSmall" android:layout_width="wrap_content" android:layout_height="40dp" android:text="+" />
+            </LinearLayout>
+            <com.google.android.material.button.MaterialButton android:id="@+id/btnAdd" android:layout_width="match_parent" android:layout_height="56dp" android:layout_marginTop="16dp" android:text="Add to cart" />
+            <com.google.android.material.button.MaterialButton android:id="@+id/btnWish" style="@style/BtnOutline" android:layout_width="match_parent" android:layout_height="56dp" android:layout_marginTop="8dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

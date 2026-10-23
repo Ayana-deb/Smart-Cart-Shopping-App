@@ -1,0 +1,4 @@
+com.smartcart.test.app-androidTest-0 C:\Users\Ayana\Desktop\SmartCart\app\build\generated\res\resValues\androidTest\debug
+com.smartcart.test.app-mergeDebugAndroidTestResources-1 C:\Users\Ayana\Desktop\SmartCart\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.smartcart.test.app-mergeDebugAndroidTestResources-2 C:\Users\Ayana\Desktop\SmartCart\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.smartcart.test.app-debugAndroidTest-3 C:\Users\Ayana\Desktop\SmartCart\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

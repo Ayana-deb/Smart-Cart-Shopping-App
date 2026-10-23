@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:gravity="center" android:padding="28dp" android:background="@drawable/bg_header">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="🎉" android:textSize="64sp" />
+    <TextView android:id="@+id/tvWelcome" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:textColor="@color/white" android:textSize="26sp" android:textStyle="bold" />
+    <TextView android:id="@+id/tvTier" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" />
+    <TextView android:id="@+id/tvTips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:gravity="center" android:lineSpacingExtra="4dp" android:textColor="#E0E7FF" android:textSize="15sp" />
+    <com.google.android.material.button.MaterialButton android:id="@+id/btnContinue" android:layout_width="match_parent" android:layout_height="58dp" android:layout_marginTop="32dp" android:backgroundTint="@color/white" android:text="Start shopping" android:textColor="@color/primary" />
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+    <include layout="@layout/toolbar" />
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+            <TextView android:id="@+id/tvInfo" style="@style/TextBody" android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@drawable/bg_soft" android:padding="12dp" />
+            <TextView android:id="@+id/tvError" style="@style/TextBody" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:background="@drawable/bg_error" android:padding="12dp" android:textColor="#991B1B" android:visibility="gone" />
+            <LinearLayout android:id="@+id/llForm" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+                <TextView style="@style/TextSection" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:text="1. Select delivered order" />
+                <Spinner android:id="@+id/spOrder" android:layout_width="match_parent" android:layout_height="52dp" />
+                <TextView style="@style/TextSection" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="2. Select product" />
+                <Spinner android:id="@+id/spProduct" android:layout_width="match_parent" android:layout_height="52dp" />
+                <TextView style="@style/TextSection" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="3. Quantity to return" />
+                <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:gravity="center_vertical" android:orientation="horizontal">
+                    <com.google.android.material.button.MaterialButton android:id="@+id/btnMinus" style="@style/BtnSmall" android:layout_width="wrap_content" android:layout_height="40dp" android:text="−" />
+                    <TextView android:id="@+id/tvQty" android:layout_width="48dp" android:layout_height="wrap_content" android:gravity="center" android:text="1" android:textColor="@color/text" android:textSize="18sp" android:textStyle="bold" />
+                    <com.google.android.material.button.MaterialButton android:id="@+id/btnPlus" style="@style/BtnSmall" android:layout_width="wrap_content" android:layout_height="40dp" android:text="+" />
+                </LinearLayout>
+                <TextView style="@style/TextSection" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:text="4. Reason" />
+                <Spinner android:id="@+id/spReason" android:layout_width="match_parent" android:layout_height="52dp" />
+                <com.google.android.material.textfield.TextInputLayout style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:hint="Description (optional)">
+                    <com.google.android.material.textfield.TextInputEditText android:id="@+id/etDesc" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="top" android:inputType="textMultiLine|textCapSentences" android:minLines="3" />
+                </com.google.android.material.textfield.TextInputLayout>
+                <TextView style="@style/TextSection" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:text="5. Item photo for verification (required)" />
+                <TextView style="@style/TextMuted" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Take a photo of the item with your camera. A camera photo is required for return review." />
+                <com.google.android.material.button.MaterialButton android:id="@+id/btnTakePhoto" style="@style/BtnOutline" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Take required photo" />
+                <ImageView android:id="@+id/ivItemPhoto" android:layout_width="match_parent" android:layout_height="220dp" android:layout_marginTop="8dp" android:adjustViewBounds="true" android:contentDescription="Photo attached to return request" android:scaleType="centerCrop" android:visibility="gone" />
+                <com.google.android.material.button.MaterialButton android:id="@+id/btnRemovePhoto" style="@style/BtnOutline" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Remove photo" android:visibility="gone" />
+                <com.google.android.material.button.MaterialButton android:id="@+id/btnSubmit" android:layout_width="match_parent" android:layout_height="58dp" android:layout_marginTop="20dp" android:text="Submit return request" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

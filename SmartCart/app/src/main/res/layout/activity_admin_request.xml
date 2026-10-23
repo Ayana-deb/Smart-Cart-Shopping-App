@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+    <include layout="@layout/toolbar" />
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="12dp">
+            <com.google.android.material.card.MaterialCardView style="@style/Card" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="4dp">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="14dp">
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:orientation="horizontal">
+                        <TextView android:id="@+id/tvStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        <TextView android:id="@+id/tvRiskBadge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8dp" />
+                        <TextView android:id="@+id/tvTierBadge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8dp" />
+                    </LinearLayout>
+                    <TextView style="@style/TextSection" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="Request" />
+                    <TextView android:id="@+id/tvSummary" style="@style/TextBody" android:layout_width="match_parent" android:layout_height="wrap_content" android:lineSpacingExtra="3dp" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView style="@style/Card" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="4dp">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="14dp">
+                    <TextView style="@style/TextSection" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Risk score and explanation (admin only)" />
+                    <TextView android:id="@+id/tvRisk" style="@style/TextBody" android:layout_width="match_parent" android:layout_height="wrap_content" android:lineSpacingExtra="3dp" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView style="@style/Card" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="4dp">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="14dp">
+                    <TextView style="@style/TextSection" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Customer photo evidence" />
+                    <TextView android:id="@+id/tvNoEvidence" style="@style/TextMuted" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="No photo was attached to this request." />
+                    <ImageView android:id="@+id/ivEvidence" android:layout_width="match_parent" android:layout_height="240dp" android:layout_marginTop="8dp" android:contentDescription="Customer-provided return item photo" android:scaleType="centerCrop" android:visibility="gone" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView style="@style/Card" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="4dp">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="14dp">
+                    <TextView style="@style/TextSection" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Customer history" />
+                    <TextView android:id="@+id/tvHistory" style="@style/TextBody" android:layout_width="match_parent" android:layout_height="wrap_content" android:lineSpacingExtra="3dp" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView style="@style/Card" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="4dp">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="14dp">
+                    <TextView style="@style/TextSection" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Decision history" />
+                    <TextView android:id="@+id/tvTimeline" style="@style/TextBody" android:layout_width="match_parent" android:layout_height="wrap_content" android:lineSpacingExtra="3dp" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView style="@style/Card" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="4dp">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="14dp">
+                    <TextView style="@style/TextSection" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Admin decision" />
+                    <com.google.android.material.textfield.TextInputLayout android:id="@+id/tilReject" style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:hint="Rejection reason (required to reject)">
+                        <com.google.android.material.textfield.TextInputEditText android:id="@+id/etReject" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="textCapSentences" />
+                    </com.google.android.material.textfield.TextInputLayout>
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:orientation="horizontal">
+                        <com.google.android.material.button.MaterialButton android:id="@+id/btnApprove" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginEnd="4dp" android:layout_weight="1" android:backgroundTint="@color/success" android:text="Approve" />
+                        <com.google.android.material.button.MaterialButton android:id="@+id/btnReject" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginStart="4dp" android:layout_weight="1" android:backgroundTint="@color/danger" android:text="Reject" />
+                    </LinearLayout>
+                    <TextView style="@style/TextMuted" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="Or update the status" />
+                    <Spinner android:id="@+id/spStatus" android:layout_width="match_parent" android:layout_height="52dp" />
+                    <com.google.android.material.button.MaterialButton android:id="@+id/btnUpdate" style="@style/BtnOutline" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Update status" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

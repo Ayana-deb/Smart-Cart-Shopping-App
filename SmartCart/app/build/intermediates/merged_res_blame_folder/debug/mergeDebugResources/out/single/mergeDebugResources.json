@@ -1,0 +1,198 @@
+[
+    {
+        "merged": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-debug-32:\\drawable_ic_nav_cart.xml.flat",
+        "source": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-main-34:\\drawable\\ic_nav_cart.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-debug-32:\\layout_item_stat.xml.flat",
+        "source": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-main-34:\\layout\\item_stat.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-debug-32:\\layout_item_notification.xml.flat",
+        "source": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-main-34:\\layout\\item_notification.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-debug-32:\\layout_activity_welcome.xml.flat",
+        "source": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-main-34:\\layout\\activity_welcome.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-debug-32:\\layout_item_category.xml.flat",
+        "source": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-main-34:\\layout\\item_category.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-debug-32:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-main-34:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-debug-32:\\layout_activity_admin_dashboard.xml.flat",
+        "source": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-main-34:\\layout\\activity_admin_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-debug-32:\\layout_activity_product_detail.xml.flat",
+        "source": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-main-34:\\layout\\activity_product_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-debug-32:\\drawable_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-main-34:\\drawable\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-debug-32:\\layout_item_order_line.xml.flat",
+        "source": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-main-34:\\layout\\item_order_line.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-debug-32:\\layout_item_return.xml.flat",
+        "source": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-main-34:\\layout\\item_return.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-debug-32:\\drawable_ic_nav_categories.xml.flat",
+        "source": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-main-34:\\drawable\\ic_nav_categories.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-debug-32:\\drawable_ic_back.xml.flat",
+        "source": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-main-34:\\drawable\\ic_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-debug-32:\\layout_item_admin_request.xml.flat",
+        "source": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-main-34:\\layout\\item_admin_request.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-debug-32:\\drawable_bg_header.xml.flat",
+        "source": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-main-34:\\drawable\\bg_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-debug-32:\\layout_activity_return_request.xml.flat",
+        "source": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-main-34:\\layout\\activity_return_request.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-debug-32:\\drawable_bg_avatar.xml.flat",
+        "source": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-main-34:\\drawable\\bg_avatar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-debug-32:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-main-34:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-debug-32:\\menu_bottom_nav.xml.flat",
+        "source": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-main-34:\\menu\\bottom_nav.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-debug-32:\\drawable_ic_logout.xml.flat",
+        "source": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-main-34:\\drawable\\ic_logout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-debug-32:\\drawable_ic_heart_filled.xml.flat",
+        "source": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-main-34:\\drawable\\ic_heart_filled.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-debug-32:\\drawable_bg_search.xml.flat",
+        "source": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-main-34:\\drawable\\bg_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-debug-32:\\drawable_bg_error.xml.flat",
+        "source": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-main-34:\\drawable\\bg_error.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-debug-32:\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-main-34:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-debug-32:\\layout_activity_membership.xml.flat",
+        "source": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-main-34:\\layout\\activity_membership.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-debug-32:\\layout_item_order.xml.flat",
+        "source": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-main-34:\\layout\\item_order.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-debug-32:\\layout_activity_checkout.xml.flat",
+        "source": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-main-34:\\layout\\activity_checkout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-debug-32:\\layout_item_product.xml.flat",
+        "source": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-main-34:\\layout\\item_product.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-debug-32:\\layout_fragment_profile.xml.flat",
+        "source": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-main-34:\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-debug-32:\\drawable_bg_soft.xml.flat",
+        "source": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-main-34:\\drawable\\bg_soft.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-debug-32:\\layout_item_row.xml.flat",
+        "source": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-main-34:\\layout\\item_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-debug-32:\\layout_fragment_cart.xml.flat",
+        "source": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-main-34:\\layout\\fragment_cart.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-debug-32:\\layout_toolbar.xml.flat",
+        "source": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-main-34:\\layout\\toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-debug-32:\\layout_fragment_categories.xml.flat",
+        "source": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-main-34:\\layout\\fragment_categories.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-debug-32:\\drawable_ic_nav_wishlist.xml.flat",
+        "source": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-main-34:\\drawable\\ic_nav_wishlist.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-debug-32:\\layout_activity_order_detail.xml.flat",
+        "source": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-main-34:\\layout\\activity_order_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-debug-32:\\drawable_ic_nav_home.xml.flat",
+        "source": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-main-34:\\drawable\\ic_nav_home.xml"
+    },
+    {
+        "merged": "com.smartcart.app-debug-32:/layout_activity_membership.xml.flat",
+        "source": "com.smartcart.app-main-34:/layout/activity_membership.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-debug-32:\\layout_activity_list.xml.flat",
+        "source": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-main-34:\\layout\\activity_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-debug-32:\\layout_fragment_wishlist.xml.flat",
+        "source": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-main-34:\\layout\\fragment_wishlist.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-debug-32:\\layout_activity_admin_request.xml.flat",
+        "source": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-main-34:\\layout\\activity_admin_request.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-debug-32:\\drawable_ic_heart_outline.xml.flat",
+        "source": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-main-34:\\drawable\\ic_heart_outline.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-debug-32:\\layout_item_cart.xml.flat",
+        "source": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-main-34:\\layout\\item_cart.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-debug-32:\\menu_menu_admin.xml.flat",
+        "source": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-main-34:\\menu\\menu_admin.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-debug-32:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-main-34:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-debug-32:\\xml_file_paths.xml.flat",
+        "source": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-main-34:\\xml\\file_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-debug-32:\\layout_activity_admin_config.xml.flat",
+        "source": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-main-34:\\layout\\activity_admin_config.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-debug-32:\\drawable_ic_nav_profile.xml.flat",
+        "source": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-main-34:\\drawable\\ic_nav_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-debug-32:\\layout_item_wishlist.xml.flat",
+        "source": "C:\\Users\\Ayana\\.gradle\\daemon\\8.7\\com.smartcart.app-main-34:\\layout\\item_wishlist.xml"
+    }
+]

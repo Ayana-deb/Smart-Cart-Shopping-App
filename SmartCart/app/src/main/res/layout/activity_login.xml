@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:background="@color/bg">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:gravity="center_horizontal" android:padding="24dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:text="🛒" android:textSize="56sp" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="SmartCart" android:textColor="@color/primary" android:textSize="30sp" android:textStyle="bold" />
+        <TextView style="@style/TextMuted" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="24dp" android:text="Shop smart. Return with confidence." android:textSize="14sp" />
+        <com.google.android.material.textfield.TextInputLayout android:id="@+id/tilEmail" style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Email">
+            <com.google.android.material.textfield.TextInputEditText android:id="@+id/etEmail" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="textEmailAddress" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout android:id="@+id/tilPassword" style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:hint="Password" app:endIconMode="password_toggle">
+            <com.google.android.material.textfield.TextInputEditText android:id="@+id/etPassword" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="textPassword" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.button.MaterialButton android:id="@+id/btnLogin" android:layout_width="match_parent" android:layout_height="56dp" android:layout_marginTop="16dp" android:text="Login" />
+        <com.google.android.material.button.MaterialButton android:id="@+id/btnGoRegister" style="@style/BtnOutline" android:layout_width="match_parent" android:layout_height="56dp" android:layout_marginTop="8dp" android:text="Create an account" />
+        <TextView style="@style/TextMuted" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:text="Demo accounts (tap to fill)" />
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+            <Button android:id="@+id/btnDemoAdmin" style="@style/Widget.MaterialComponents.Button.TextButton" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Admin" android:textAllCaps="false" />
+            <Button android:id="@+id/btnDemoAlice" style="@style/Widget.MaterialComponents.Button.TextButton" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Alice" android:textAllCaps="false" />
+            <Button android:id="@+id/btnDemoBob" style="@style/Widget.MaterialComponents.Button.TextButton" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Bob" android:textAllCaps="false" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+            <Button android:id="@+id/btnDemoCarl" style="@style/Widget.MaterialComponents.Button.TextButton" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Carl" android:textAllCaps="false" />
+            <Button android:id="@+id/btnDemoDiana" style="@style/Widget.MaterialComponents.Button.TextButton" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Diana" android:textAllCaps="false" />
+        </LinearLayout>
+        <TextView style="@style/TextMuted" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:text="Admin: admin@smartcart.com / admin123\nCustomers: alice@demo.com, bob@demo.com, carl@demo.com, diana@demo.com / demo123" />
+    </LinearLayout>
+</ScrollView>
